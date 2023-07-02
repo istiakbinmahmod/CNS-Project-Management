@@ -3,8 +3,11 @@ package com.cns.cns.project.management.service;
 import com.cns.cns.project.management.entity.Project;
 import com.cns.cns.project.management.repository.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
+
+@Service
 
 public class ProjectServiceImpl implements ProjectService{
 
