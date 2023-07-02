@@ -1,0 +1,21 @@
+server:
+    port: 8080
+
+spring:
+#  profiles:
+#    active: dev
+
+#---
+#spring:
+#    profiles: dev
+    datasource:
+#        driver-class-name: com.mysql.jdbc.Driver
+        password: 1234
+        url: jdbc:mysql://localhost:3306/cnsapp
+        username: root
+    jpa:
+        hibernate:
+        ddl-auto: update
+        show-sql: true
+
+---
