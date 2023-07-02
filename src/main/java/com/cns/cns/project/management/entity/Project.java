@@ -23,7 +23,7 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long projectId;
 
-    @NotBlank(message = "Please Add Project Name")
+//    @NotBlank(message = "Please Add Project Name")
     private String projectName;
     private String projectIntro;
     private String status;

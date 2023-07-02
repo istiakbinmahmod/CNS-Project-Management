@@ -23,17 +23,16 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long userId;
 
-//    @NotBlank(message = "Please provide first name")
+    @NotBlank(message = "Please provide first name")
     private String firstName;
 
-//    @NotBlank(message = "Please provide last name")
+    @NotBlank(message = "Please provide last name")
     private String lastName;
 
-    // provide email validation
-//    @NotBlank(message = "Please provide email")
-//    @Email
+    @NotBlank(message = "Please provide email")
+    @Email
     private String email;
 
-//    @NotBlank(message = "Please provide password")
+    @NotBlank(message = "Please provide password")
     private String password;
 }
